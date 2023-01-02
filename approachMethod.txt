@@ -1,0 +1,4 @@
+Trying brute force and checking if any block satisfies all the requirement.
+if it is not satisfying i am storing the total matched count in a matched array.
+if all requirement are matched just return the index+1 directly (index + 1 because the answer is require for indexing that starts with 1 and not zero).
+the worst case time complexity is O(n^2).
